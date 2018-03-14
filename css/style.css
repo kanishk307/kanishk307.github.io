@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+      
+  }
+    #Connect {
+        margin-top: 50px;
+    }
+    
+    #kj {
+    margin-top: 1px;
+    
+}
+    #kanishk-jain {
+        font-size: 30px;
+    }
+    
+    #tagline{
+        font-size: 10px;
+    }
+    
+    #clickOnCardsText {
+     font-size: 10px;   
+    }
+     
+}
+        
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#main-content-container {
+    background-image: url(../bg00.jpg);   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#clickOnCardsText {
+    color: #fff;
+    font-family: "Exo 2";
+    font-size: 20px;
+}
+
+#engineeringLovesMeLink {
+    font-size: 13px;
+}
+
+#kj {
+    margin-top: 3px;
+    
+}
+
+#linkedin-logo {
+    margin :0 10px;
+}
+
+#kanishk-jain {
+    font-family: "Julius Sans One";
+    font-weight: bold;
+}
+
+#tagline {
+    font-family: "Cabin Sketch";
+    font-size: 15px;
+}
